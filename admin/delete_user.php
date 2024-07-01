@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt = mysqli_prepare($conn, $query);
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
-
+    
     if (mysqli_stmt_affected_rows($stmt) > 0) {
         header('Location: data_user.php'); // Kembali ke halaman daftar user
     } else {

@@ -32,6 +32,7 @@ require '../function/koneksi.php'; // Menggunakan koneksi dari koneksi.php
                 echo '<p class="text-warning">Postingan tidak ditemukan!</p>';
             } else {
                 ?>
+        <!-- mulai kode -->
         <div class="row mb-3">
             <div class="col-auto">
                 <img src="//gravatar.com/avatar/<?= md5($topik['email']); ?>?s=48&d=robohash" class="rounded-circle"

@@ -109,7 +109,7 @@ include '../template/nav_admin.php';
                             ?>
             </div>
             <div class="col">
-                <form action="jawab_post.php" method="post">
+                <form action="../view/jawab_post.php" method="post">
                     <div class="mb-3">
                         <textarea class="form-control" name="komentar" id="komentar" placeholder="Komentar"></textarea>
                         <input type="hidden" value="<?= $topik['id'] ;?>" name="id_topik">
