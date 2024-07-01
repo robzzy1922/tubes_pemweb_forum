@@ -1,6 +1,6 @@
-# PHP Forum Project
+# PHP Forum Project (FODIS)
 
-![Forum Logo](path/to/logo.png)
+![FODIS Logo](path/to/logo.png)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/robzzy1922/php-forum)
 ![GitHub](https://img.shields.io/github/license/robzzy1922/php-forum)
@@ -10,10 +10,7 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
