@@ -51,7 +51,7 @@ if (!empty($_POST)) {
             <h1 class="text-center mb-5">Login</h1>
             <?php 
             if(!$hasil){
-                echo "<p class='text-danger'>Password atau Email Salah</p>";
+                echo "<p class='text-danger text-center'>Password atau Email Salah</p>";
             }
             ?>
             <form action="" method="post">
@@ -64,11 +64,8 @@ if (!empty($_POST)) {
                         <input type="password" class="form-control" name="password" id="password" placeholder="Password"
                             required />
                         <label for="password">Password</label>
-
                     </li>
-
                     <button type="submit" class="btn btn-primary w-100">Login</button>
-                    </li>
                     <li class="text-center mt-3">
                         <p>Belum punya akun? <a href="daftar.php">Daftar</a></p>
                     </li>
