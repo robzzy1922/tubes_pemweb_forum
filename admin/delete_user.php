@@ -4,6 +4,12 @@ require '../function/koneksi.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = $_POST['id']; // Mendapatkan ID dari form
 
+    // Query untuk menghapus topik terkait
+    $query_topik = "DELETE FROM topik WHERE id_pengguna = ?";
+    $stmt_topik = mysqli_prepare($conn, $query_topik);
+    mysqli_stmt_bind_param($stmt_topik, 'i', $id);
+    mysqli_stmt_execute($stmt_topik);
+
     // Query untuk menghapus komentar terkait
     $query_komentar = "DELETE FROM komentar WHERE id_pengguna = ?";
     $stmt_komentar = mysqli_prepare($conn, $query_komentar);

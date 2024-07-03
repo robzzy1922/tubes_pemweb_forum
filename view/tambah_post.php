@@ -59,14 +59,14 @@ echo '<p class="text-success">Postingan berhasil terkirim</p>';
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="deskripsi" id="deskripsi">Deskripsi</label>
-                        <textarea name="deskripsi" class="form-control"></textarea>
+                        <textarea name="deskripsi" placeholder="Opsional" class="form-control"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Kirim</button>
                 </form>
             </div>
         </div>
         <div class="peringatan mt-5">
-            <h4 class="text-warning">Rules Dalam Postingan :</h4>
+            <h4 class="text-primary">Rules Dalam Postingan :</h4>
             <ul class="list-unstyled">
                 <li class="mb-1 text-secondary">Pastikan judul postingan jelas dan spesifik.</li>
                 <li class="mb-1 text-secondary">Gunakan bahasa yang sopan dan hindari ujaran kebencian.</li>
