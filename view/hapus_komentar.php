@@ -1,6 +1,6 @@
 <?php
 
-require_once '../function/koneksi.php';
+require_once '../function/koneksi.php'; //koneksi
 session_start();
 
 // Mengganti PDO dengan mysqli
